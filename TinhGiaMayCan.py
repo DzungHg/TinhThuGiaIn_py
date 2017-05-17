@@ -11,17 +11,15 @@ tính khoảng 500.000 đ / lô
 """
 #1). Dữ liệu cơ bản 01 hớ số lượng bắt đầu 1
 daySoLuongCB01 = [1,50,100,150,200,250,300,350,400,450,500,550,600,650,700,750,800,850,900,950]
-dayLoiNhuanCB01 = [20,20,20,40,40,40,68,68,68,68,68,68,40,68,68,68,68,68,68,68]
+dayLoiNhuanCB01 = [35,30,35,40,40,40,45,45,45,45,45,45,45,45,45,45,45,45,45,45]
 """ dữ liệu trên đã đúng với giá in nhanh VIP1 hiện tại"""
-#2). Dữ liệu cơ bản cho 1000 trang đến 10000 trang (tối đa công suất 1 máy trong ngày)
-daySoLuongCB02 = [950,1000,1500,2000,2500,3000,3500,4000,4500,5000,5500,6000,6500,7000,7500,8000,8500,9000,9500,10000]
-dayLoiNhuanCB02 = [68,63,62,61,60,68,69,67,66,65,64,63,62,61,60,58,56,54,52,50]
+
 #cung cấp dữ liệu để tính dựa trên thông tin hiện tại
 daySoLuong01 = [50, 100, 150, 200, 250, 300, 350, 400, 450, 500, 550, 600, 650, 700, 750, 800, 850, 900, 950, 999]
 daySoLuong02 = [950, 1000, 1500, 2000, 2500, 3000, 3500, 4000, 4500, 5000, 5500, 6000, 6500, 7000, 7500, 8000, 8500, 9000, 9500, 10000]
-mayCan01 = MayCanGap(500000, 0.2, daySoLuongCB01, dayLoiNhuanCB01, 5000) #tốc độ 5000 tờ giờ
+mayCan01 = MayCanGap(500000, 0.2, 0.1, daySoLuongCB01, dayLoiNhuanCB01, 5000) #tốc độ 5000 tờ giờ
 tyLeSales = 0;
-giaCan01 = GiaMayCanGap(mayCan01, 0, tyLeSales)
+giaCan01 = GiaMayCanGap(mayCan01, 0, 1, tyLeSales)#tạm để số con 0 để thêm trong vòng lặp
 #tính toán 01:
 
 for i in range(0, len(daySoLuong01)):
