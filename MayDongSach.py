@@ -19,8 +19,9 @@ class TinhGiaDongSach:
 
         phiSetup = self.MayDongSach.ThoiGianSanSang * self.MayDongSach.BHR #Lấy giờ
         thoiGianChay = self.SoCuon / self.MayDongSach.TocDo
-        phiChay = thoiGianChay * self.MayDongSach.BHR;
-        ketQua = phiSetup + phiChay;
+        phiChay = thoiGianChay * self.MayDongSach.BHR
+        phi_nguyen_lieu_cho_cuon = self.MayDongSach.PhiNguyenLieuChoMotCuon * self.SoCuon
+        ketQua = phiSetup + phiChay + phi_nguyen_lieu_cho_cuon
 
         return ketQua
 

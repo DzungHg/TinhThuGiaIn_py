@@ -1,23 +1,20 @@
 from TinhToan import giaTriTheoKhuc
 
 from MayDongSach import *
-""" Hiện nay đang tính như sau:
-dạ 1 - 100  đường= 1.000 đ / đường
-101 - 300 đường = 900 đ / đường
-301 - 400 đường= 800 đ / đường
-ví dụ 1000 tờ cấn 1 đường, em thường tính khoảng 300.000 - 350.000 đ / lô
-tính khoảng 500.000 đ / lô
+""" Nguyên tắc như sau:
+Lây cuốn A4 làm cơ sở giá 1.600đ/lò xo
+Tính cho đối tượng làm gia công
 
 """
 #1). Dữ liệu cơ bản 01 hớ số lượng bắt đầu 1
 daySoLuongCB01 = [1, 2, 10,20,30,40,50,100,150,200,250,300,350,400,450,500]
-dayLoiNhuanCB01 = [0,50,50,50,60,70,70, 80,80, 79, 79, 78, 78, 77, 77, 75]
+dayLoiNhuanCB01 = [0,50,80,80,80,80,78,77,  76,75, 74, 73, 72, 71, 70, 70]
 """ dữ liệu trên đã đúng với giá in nhanh VIP1 hiện tại"""
 
 #cung cấp dữ liệu để tính dựa trên thông tin hiện tại
 daySoLuong01 = [1,2, 10, 20, 30, 40,50, 100, 150, 200, 250, 300, 350, 400, 450, 500, 600, 700, 800, 900, 1000]
 #daySoLuong02 = [950, 1000, 1500, 2000, 2500, 3000, 3500, 4000, 4500, 5000, 5500, 6000, 6500, 7000, 7500, 8000, 8500, 9000, 9500, 10000]
-mayDongSach01 = MayDongSach(250000, 0.3, 120, daySoLuongCB01, dayLoiNhuanCB01, 4000) #tốc độ 5000 tờ giờ
+mayDongSach01 = MayDongSach(95000, 0.3, 1600, daySoLuongCB01, dayLoiNhuanCB01, 120) #tốc độ 5000 tờ giờ
 tyLeSales = 0;
 giaDongCuon01 = TinhGiaDongSach(mayDongSach01, 0, tyLeSales)#tạm để số cuốn 0 để thêm trong vòng lặp sau
 #tính toán 01:
