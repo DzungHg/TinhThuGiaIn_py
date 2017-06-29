@@ -10,7 +10,7 @@ tính khoảng 500.000 đ / lô
 
 """
 #1). Dữ liệu cơ bản 01 hớ số lượng bắt đầu 1
-daySoLuongCB01 = [1,2, 50,100,150,200,250,300,350,400,450,500]
+daySoLuongCB01 = [1,  2, 50,100,150,200,250,300,350,400,450,500]
 dayLoiNhuanCB01 = [35,50,50,49,48,47,46,45,45,45,45,45]
 """ dữ liệu trên đã đúng với giá in nhanh VIP1 hiện tại"""
 
