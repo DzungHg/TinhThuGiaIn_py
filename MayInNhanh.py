@@ -26,10 +26,16 @@ class GiaInMayDigi:
     def GiaBanCoBan(self):
         loiNhuan = giaTriTheoKhuc(self.MayInDigi.DaySoLuongCB, self.MayInDigi.DayLoiNhuanCB, self.SoTrangA4)
         tyLeLoiNhuan = loiNhuan / 100
-        return self.chiPhi() +  self.chiPhi() * tyLeLoiNhuan /(1 - tyLeLoiNhuan)
+        if tyLeLoiNhuan > 0:
+            return self.chiPhi() +  self.chiPhi() * tyLeLoiNhuan /(1 - tyLeLoiNhuan)
+        else:
+            return self.chiPhi() + self.chiPhi() * 0
 
     def GiaSales(self):
-        return self.GiaBanCoBan() + self.GiaBanCoBan() * self.TyLeSales / ( 1- self.TyLeSales)
+        if self.TyLeSales > 0:
+            return self.GiaBanCoBan() + self.GiaBanCoBan() * self.TyLeSales / ( 1- self.TyLeSales)
+        else:
+            return self.GiaBanCoBan() + self.GiaBanCoBan() * 0
 
     def GiaTrangTB(self):
         return  self.GiaSales() / self.SoTrangA4
