@@ -25,22 +25,27 @@ def giaInNhanhTheoBang(khoangSoLuongS, khoangGiaS, soTrangA4):
     result = 0
     soTrangGoc = soTrangA4 #/ lưu để tính cuối.
     # tạo bản dãy chứa block trang theo độ dài
-    page_blocks = [len(khoangSoLuongS)]
-    i = 0
-    for i in range(0, len(page_blocks) - 1):
+    page_blocks = [0]* len(khoangSoLuongS)
+
+    for i in range(len(page_blocks)-1):
         if soTrangA4 <= khoangSoLuongS[i + 1] - khoangSoLuongS[i]:
             page_blocks[i] = soTrangA4
-            soTrangA4 = 0; # ngăn không cho cộng thêm ở cuối break;
+            soTrangA4 = 0 # ngăn không cho cộng thêm ở cuối break;
+            break
         else:
             page_blocks[i] = khoangSoLuongS[i + 1] - khoangSoLuongS[i]
             # page num còn lại
             soTrangA4 -= page_blocks[i]
 
+
     if (soTrangA4 > 0):
-        page_blocks[i] = soTrangA4
+        page_blocks[i+1] = soTrangA4 #i+ 1 vì Python dùng range
+        #print("a4", soTrangA4)
+        #print("i", i)
     # tính giá theo các blocks trang đã có
 
-    for i in range(0, len(page_blocks)):
+    for i in range(len(page_blocks)):
+
         result += page_blocks[i] * khoangGiaS[i]
 
     return result
