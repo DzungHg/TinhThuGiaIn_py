@@ -1,5 +1,6 @@
 from TinhToan import giaTriTheoKhuc
 class MayInDigi:
+
     def __init__(self, clickA4, bHR, thoiGianSanSang, daySoLuongCB, dayLoiNhuanCB, tocDo):
         self.ClickTrangA4 = clickA4
         self.BHR = bHR
@@ -7,14 +8,15 @@ class MayInDigi:
         self.ThoiGianSanSang = thoiGianSanSang
         self.DaySoLuongCB  = daySoLuongCB
         self.DayLoiNhuanCB = dayLoiNhuanCB
-#-----
+
 class GiaInMayDigi:
+
     def __init__(self, mayInDigi, soTrangA4, tyLeSales):
         self.SoTrangA4 = soTrangA4
         self.MayInDigi = mayInDigi
         self.TyLeSales = tyLeSales/100
 
-    def chiPhi(self ):
+    def chi_phi(self):
 
         phiSetup =  self.MayInDigi.ThoiGianSanSang * self.MayInDigi.BHR #Lấy giờ
         thoiGianChay = self.SoTrangA4 / self.MayInDigi.TocDo
@@ -23,20 +25,22 @@ class GiaInMayDigi:
 
         return ketQua
 
-    def GiaBanCoBan(self):
+    def gia_ban_co_ban(self):
         loiNhuan = giaTriTheoKhuc(self.MayInDigi.DaySoLuongCB, self.MayInDigi.DayLoiNhuanCB, self.SoTrangA4)
         tyLeLoiNhuan = loiNhuan / 100
         if tyLeLoiNhuan > 0:
-            return self.chiPhi() +  self.chiPhi() * tyLeLoiNhuan /(1 - tyLeLoiNhuan)
+            return self.chi_phi() + self.chi_phi() * tyLeLoiNhuan / (1 - tyLeLoiNhuan)
         else:
-            return self.chiPhi() + self.chiPhi() * 0
+            return self.chi_phi() + self.chi_phi() * 0
 
-    def GiaSales(self):
+    def gia_sales(self):
+
         if self.TyLeSales > 0:
-            return self.GiaBanCoBan() + self.GiaBanCoBan() * self.TyLeSales / ( 1- self.TyLeSales)
+            return self.gia_ban_co_ban() + self.gia_ban_co_ban() * self.TyLeSales / (1 - self.TyLeSales)
         else:
-            return self.GiaBanCoBan() + self.GiaBanCoBan() * 0
+            return self.gia_ban_co_ban() + self.gia_ban_co_ban() * 0
 
     def GiaTrangTB(self):
-        return  self.GiaSales() / self.SoTrangA4
+
+        return self.gia_sales() / self.SoTrangA4
 
