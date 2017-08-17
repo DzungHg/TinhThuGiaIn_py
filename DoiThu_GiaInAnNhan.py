@@ -13,7 +13,7 @@ dayGia01 = [10000,8000,5000,3000, 2500, 2200, 2000]
 """
 #
 #cung cấp dữ liệu để tính dựa trên thông tin hiện tại
-dayTrang01 = [50,100,150,200,250,300,350,400,450,500,550,600,650,700,750,800,850,900,950,999]
+dayTrang01 = [50,100,150,200,250,300,350,400,450,500,550,600,650,700,750,800,850,900,950,1000]
 dayTrang02 = [950,1000,1500,2000,2500,3000,3500,4000,4500,5000,5500,6000,6500,7000,7500,8000,8500,9000,9500,10000]
 
 tyLeSales = 0;
@@ -31,7 +31,7 @@ for i in range(len(dayTrang01)):
      #                                 round(giaTrungBinhTrang)))
     #trừ giấy TB: 350 đồng
     print('SL: {0}, {1}, {2}'.format(soTrangTinh, round(tong_gia), \
-                                     round(giaTrungBinhTrang - 350)))
+                                     round(giaTrungBinhTrang - 450)))
 
 
 #print('{0}'.format(giaTriTheoKhuc(daySoLuongCB01, dayLoiNhuanCB01,50)))
