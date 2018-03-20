@@ -9,7 +9,8 @@ Thị trường lên khuôn:
 #1). Dữ liệu cơ bản 01 hớ số lượng bắt đầu 1
 daySoLuongCB01 = [1, 10, 50,100,150,200,250,300,350,400,450,500,600,700,800,900,1000,1500,2000,3000]
 #dayLoiNhuanCB01 = [30,50,80, 80,80, 80, 79, 78, 77, 76, 75, 74, 72, 70, 70, 70, 70,  70, 70,   70]#chuẩn hiện tại
-dayLoiNhuanCB01 = [30,50,80, 80,80, 80, 79, 78, 77, 76, 75, 74, 72, 70, 70, 70, 70,  70, 70,   70]#Thử nghiệm
+#điều chỉnh lại:
+dayLoiNhuanCB01 = [30,60,60, 60,60, 60, 60, 60, 60, 60, 60, 50, 50, 50, 50, 50, 45,  45, 45,   45]
 """ dữ liệu trên đã đúng với giá in nhanh VIP1 hiện tại"""
 
 #cung cấp dữ liệu để tính dựa trên thông tin hiện tại
