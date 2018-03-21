@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ddfe5508-87d6-40c1-a904-9df90b03cbbe" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/MayEpKimThuyLuc.py" />
+      <change beforePath="$PROJECT_DIR$/.idea/TinhThuGiaIn.iml" afterPath="$PROJECT_DIR$/.idea/TinhThuGiaIn.iml" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/TinhGiaBeTruyenThong.py" afterPath="$PROJECT_DIR$/TinhGiaBeTruyenThong.py" />
     </list>
     <ignored path="TinhThuGiaIn.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -16,26 +18,26 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/TinhThuGiaIn_py$TinhGiaCuonKeoPUR.coverage" NAME="TinhGiaCuonKeoPUR Coverage Results" MODIFIED="1496721218121" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/TinhThuGiaIn_py$TinhGiaInNhanh.coverage" NAME="TinhGiaInNhanh Coverage Results" MODIFIED="1502335333980" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/TinhThuGiaIn_py$TinhGiaCuonLoXo.coverage" NAME="TinhGiaCuonLoXo Coverage Results" MODIFIED="1496720511416" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/TinhThuGiaIn_py$TinhGiaCuonKeoThuong.coverage" NAME="TinhGiaCuonKeoThuong Coverage Results" MODIFIED="1500870457931" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/TinhThuGiaIn$GiaInNhanhTheoBang.coverage" NAME="GiaInNhanhTheoBang Coverage Results" MODIFIED="1494917470784" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/TinhThuGiaIn$TinhGiaInNhanh.coverage" NAME="TinhGiaInNhanh Coverage Results" MODIFIED="1494927471787" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/TinhThuGiaIn_py$TinhGiaCuonKimTuDong.coverage" NAME="TinhGiaCuonKimTuDong Coverage Results" MODIFIED="1496720919794" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/TinhThuGiaIn_py$DoiThu_GiaInAnNhan.coverage" NAME="DoiThu_GiaInAnNhan Coverage Results" MODIFIED="1502981533142" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/TinhThuGiaIn_py$TinhGiaCuonKimTay.coverage" NAME="TinhGiaCuonKimTay Coverage Results" MODIFIED="1495857360686" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/TinhThuGiaIn_py$TinhGiaMayCan.coverage" NAME="TinhGiaMayCan Coverage Results" MODIFIED="1495033901744" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/TinhThuGiaIn_py$GiaInNhanh_TheoMay.coverage" NAME="GiaInNhanh_TheoMay Coverage Results" MODIFIED="1502361951489" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/TinhThuGiaIn_py$TinhGiaBeTruyenThong.coverage" NAME="TinhGiaBeTruyenThong Coverage Results" MODIFIED="1521557286182" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/TinhThuGiaIn_py$TinhGiaInAnNhan.coverage" NAME="TinhGiaInAnNhan Coverage Results" MODIFIED="1502354745221" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/TinhThuGiaIn_py$DoiThu_GiaInXuanPhuc.coverage" NAME="DoiThu_GiaInXuanPhuc Coverage Results" MODIFIED="1502981747830" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/TinhThuGiaIn_py$123in_GiaInTheoKhoang.coverage" NAME="123in_GiaInTheoKhoang Coverage Results" MODIFIED="1502359050116" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/TinhThuGiaIn_py$GiaInNhanh_TheoMay2.coverage" NAME="GiaInNhanh_TheoMay2 Coverage Results" MODIFIED="1502982746120" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/TinhThuGiaIn_py$TinhGiaInAnNhan.coverage" NAME="TinhGiaInAnNhan Coverage Results" MODIFIED="1502354745221" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/TinhThuGiaIn_py$GiaInNhanh_TheoMay.coverage" NAME="GiaInNhanh_TheoMay Coverage Results" MODIFIED="1502361951489" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/TinhThuGiaIn_py$TinhGiaInNhanh.coverage" NAME="TinhGiaInNhanh Coverage Results" MODIFIED="1502335333980" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/TinhThuGiaIn_py$TinhGiaInTheoKhoang.coverage" NAME="TinhGiaInTheoKhoang Coverage Results" MODIFIED="1501057988486" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/TinhThuGiaIn_py$TinhGiaBeTuDong.coverage" NAME="TinhGiaBeTuDong Coverage Results" MODIFIED="1521557260334" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/TinhThuGiaIn_py$GiaInNhanhTheoBang.coverage" NAME="GiaInNhanhTheoBang Coverage Results" MODIFIED="1502352826789" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/TinhThuGiaIn$GiaInNhanhTheoBang.coverage" NAME="GiaInNhanhTheoBang Coverage Results" MODIFIED="1494917470784" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/TinhThuGiaIn_py$TinhGiaCuonKeoThuong.coverage" NAME="TinhGiaCuonKeoThuong Coverage Results" MODIFIED="1521624705532" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/TinhThuGiaIn_py$TinhGiaCuonKimTay.coverage" NAME="TinhGiaCuonKimTay Coverage Results" MODIFIED="1495857360686" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/TinhThuGiaIn_py$GiaInNhanh_TheoMay2.coverage" NAME="GiaInNhanh_TheoMay2 Coverage Results" MODIFIED="1502982746120" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/TinhThuGiaIn$TinhGiaInNhanh.coverage" NAME="TinhGiaInNhanh Coverage Results" MODIFIED="1494927471787" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/TinhThuGiaIn_py$DoiThu_GiaInAnNhan.coverage" NAME="DoiThu_GiaInAnNhan Coverage Results" MODIFIED="1502981533142" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/TinhThuGiaIn_py$TinhGiaCuonKimTuDong.coverage" NAME="TinhGiaCuonKimTuDong Coverage Results" MODIFIED="1496720919794" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/TinhThuGiaIn_py$TinhGiaCanMang.coverage" NAME="TinhGiaCanMang Coverage Results" MODIFIED="1521588837503" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/TinhThuGiaIn_py$TinhGiaMayCan.coverage" NAME="TinhGiaMayCan Coverage Results" MODIFIED="1495033901744" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/TinhThuGiaIn_py$TinhGiaCuonLoXo.coverage" NAME="TinhGiaCuonLoXo Coverage Results" MODIFIED="1496720511416" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/TinhThuGiaIn_py$TinhGiaBeTruyenThong.coverage" NAME="TinhGiaBeTruyenThong Coverage Results" MODIFIED="1521557286182" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/TinhThuGiaIn_py$GiaInNhanhTheoBang.coverage" NAME="GiaInNhanhTheoBang Coverage Results" MODIFIED="1502352826789" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/TinhThuGiaIn_py$TinhGiaCuonKeoPUR.coverage" NAME="TinhGiaCuonKeoPUR Coverage Results" MODIFIED="1496721218121" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/TinhThuGiaIn_py$123in_GiaInTheoKhoang.coverage" NAME="123in_GiaInTheoKhoang Coverage Results" MODIFIED="1502359050116" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -48,7 +50,7 @@
       <file leaf-file-name="MayBeTuDong.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MayBeTuDong.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
+            <state relative-caret-position="204">
               <caret line="13" column="36" lean-forward="false" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
               <folding />
             </state>
@@ -58,8 +60,8 @@
       <file leaf-file-name="TinhGiaBeTuDong.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TinhGiaBeTuDong.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="109" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="109" />
+            <state relative-caret-position="170">
+              <caret line="11" column="109" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="109" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
               </folding>
@@ -67,12 +69,34 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TinhGiaBeTruyenThong.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TinhGiaBeTruyenThong.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TinhGiaBeTruyenThong.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
               <caret line="11" column="16" lean-forward="false" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MayEpKimThuyLuc.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MayEpKimThuyLuc.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="12" column="32" lean-forward="false" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TinhGiaCuonKeoThuong.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/TinhGiaCuonKeoThuong.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#35#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -119,6 +143,7 @@
         <option value="$PROJECT_DIR$/MayBeTuDong.py" />
         <option value="$PROJECT_DIR$/TinhGiaBeTuDong.py" />
         <option value="$PROJECT_DIR$/TinhGiaBeTruyenThong.py" />
+        <option value="$PROJECT_DIR$/MayEpKimThuyLuc.py" />
       </list>
     </option>
   </component>
@@ -149,7 +174,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -162,6 +186,7 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -171,8 +196,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\GitHub\TinhThuGiaIn_py" />
       <recent name="D:\GitHub\TinhThuGiaIn_py" />
+      <recent name="E:\GitHub\TinhThuGiaIn_py" />
       <recent name="D:\Python\TinhThuGiaIn" />
     </key>
   </component>
@@ -188,26 +213,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.TinhGiaCanMang">
-    <configuration name="DoiThu_GiaInXuanPhuc" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="TinhThuGiaIn" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DoiThu_GiaInXuanPhuc.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
+  <component name="RunManager" selected="Python.TinhGiaCuonKeoThuong">
     <configuration name="GiaInNhanh_TheoMay2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -279,6 +285,25 @@
       <module name="TinhThuGiaIn" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TinhGiaCanMang.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="TinhGiaCuonKeoThuong" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="TinhThuGiaIn" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TinhGiaCuonKeoThuong.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -483,19 +508,19 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.DoiThu_GiaInXuanPhuc" />
-      <item index="1" class="java.lang.String" itemvalue="Python.GiaInNhanh_TheoMay2" />
-      <item index="2" class="java.lang.String" itemvalue="Python.TinhGiaBeTruyenThong" />
-      <item index="3" class="java.lang.String" itemvalue="Python.TinhGiaBeTuDong" />
-      <item index="4" class="java.lang.String" itemvalue="Python.TinhGiaCanMang" />
+      <item index="0" class="java.lang.String" itemvalue="Python.GiaInNhanh_TheoMay2" />
+      <item index="1" class="java.lang.String" itemvalue="Python.TinhGiaBeTruyenThong" />
+      <item index="2" class="java.lang.String" itemvalue="Python.TinhGiaBeTuDong" />
+      <item index="3" class="java.lang.String" itemvalue="Python.TinhGiaCanMang" />
+      <item index="4" class="java.lang.String" itemvalue="Python.TinhGiaCuonKeoThuong" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.TinhGiaCanMang" />
-        <item index="1" class="java.lang.String" itemvalue="Python.TinhGiaBeTruyenThong" />
-        <item index="2" class="java.lang.String" itemvalue="Python.TinhGiaBeTuDong" />
-        <item index="3" class="java.lang.String" itemvalue="Python.GiaInNhanh_TheoMay2" />
-        <item index="4" class="java.lang.String" itemvalue="Python.DoiThu_GiaInXuanPhuc" />
+        <item index="0" class="java.lang.String" itemvalue="Python.TinhGiaCuonKeoThuong" />
+        <item index="1" class="java.lang.String" itemvalue="Python.TinhGiaCanMang" />
+        <item index="2" class="java.lang.String" itemvalue="Python.TinhGiaBeTruyenThong" />
+        <item index="3" class="java.lang.String" itemvalue="Python.TinhGiaBeTuDong" />
+        <item index="4" class="java.lang.String" itemvalue="Python.GiaInNhanh_TheoMay2" />
       </list>
     </recent_temporary>
   </component>
@@ -573,20 +598,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/GiaInNhanh_TheoMay.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="29" column="26" lean-forward="false" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/123in_GiaInTheoKhoang.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="17" lean-forward="false" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/TinhToan.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="714">
@@ -848,7 +859,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/MayBeTuDong.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state relative-caret-position="204">
           <caret line="13" column="36" lean-forward="false" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
           <folding />
         </state>
@@ -866,7 +877,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -874,7 +884,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -882,33 +891,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="9" column="47" lean-forward="true" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="47" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TinhGiaBeTuDong.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="109" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="109" />
+        <state relative-caret-position="170">
+          <caret line="11" column="109" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="109" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TinhGiaCanMang.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="35" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MayCanPhu.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -917,6 +909,38 @@
         <state relative-caret-position="170">
           <caret line="11" column="16" lean-forward="false" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TinhGiaCanMang.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="28" lean-forward="false" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MayCanPhu.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MayEpKimThuyLuc.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="12" column="32" lean-forward="false" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TinhGiaCuonKeoThuong.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
